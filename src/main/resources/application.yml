@@ -1,0 +1,9 @@
+server:
+  port: 8781
+spring:
+  application:
+    name: backend-citas-eureka  
+eureka:
+  client:
+    register-with-eureka: false 
+    fetch-registry: false  
